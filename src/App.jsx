@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import Levels from './components/Levels';
 import ShopPreview from './components/ShopPreview';
 import TechSpecs from './components/TechSpecs';
 
@@ -9,6 +10,7 @@ const App = () => {
     <div className="min-h-screen w-full bg-black text-white">
       <Hero />
       <Features />
+      <Levels />
       <ShopPreview />
       <TechSpecs />
       <footer className="border-t border-white/10 bg-black/80 px-6 py-8 text-center text-white/60">
